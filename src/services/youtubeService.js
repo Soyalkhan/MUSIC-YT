@@ -1,5 +1,4 @@
-import dotenv from 'dotenv';
-dotenv.config();
+
 
 const API_KEY = process.env.NEXT_PUBLIC_YT_API; 
 
