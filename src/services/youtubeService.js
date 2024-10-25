@@ -1,6 +1,7 @@
 
 
 const API_KEY = process.env.NEXT_PUBLIC_YT_API; 
+console.log("API key : "+ API_KEY)
 
 export const fetchMusicData = async (query) => {
   try {
